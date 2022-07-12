@@ -1,11 +1,18 @@
 body {
   width: 100%;
   min-height: 100vh;
-  background-image: linear-gradient(to bottom, #1e1e1e, #38424d, #446d7b, #539c9a, #81caa8);
+  background-image: linear-gradient(
+    to bottom,
+    #1e1e1e,
+    #38424d,
+    #446d7b,
+    #539c9a,
+    #81caa8
+  );
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .logo {
@@ -97,7 +104,6 @@ body {
   color: #e74c3c;
 }
 
-
 #snackbar {
   visibility: hidden;
   min-width: 250px;
@@ -120,23 +126,46 @@ body {
   animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
 
-
 @-webkit-keyframes fadein {
-  from {bottom: 0; opacity: 0;} 
-  to {bottom: 30px; opacity: 1;}
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
 }
 
 @keyframes fadein {
-  from {bottom: 0; opacity: 0;}
-  to {bottom: 30px; opacity: 1;}
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fadeout {
-  from {bottom: 30px; opacity: 1;} 
-  to {bottom: 0; opacity: 0;}
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
 }
 
 @keyframes fadeout {
-  from {bottom: 30px; opacity: 1;}
-  to {bottom: 0; opacity: 0;}
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
 }
